@@ -4,8 +4,8 @@ import { HeaderType } from "../../../lib/sanity/types";
 
 const HeaderSection = ({ data }: { data: HeaderType[] }) => {
   return (
-    <div className="flex justify-center">
-      <div className="h-[70px] w-[1400px]  relative mt-4">
+    <div className="flex justify-center ml-4 mr-2 ">
+      <div className="h-[70px] w-[1400px] relative mt-4">
         <div>
           {data.map((item, index) => (
             <div key={index} className="flex">
@@ -19,7 +19,7 @@ const HeaderSection = ({ data }: { data: HeaderType[] }) => {
                   </span>
                 </div>
               </div>
-              <div className="flex justify-end w-full items-center">
+              <div className="flex justify-end w-full items-center hidden x:flex">
                 {item.sociallogolink.map((item, inded) => (
                   <a
                     key={inded}
@@ -27,7 +27,7 @@ const HeaderSection = ({ data }: { data: HeaderType[] }) => {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <div className="w-[40px] ">
+                    <div className="w-[40px]">
                       <img
                         src={item.sociallogo.asset.url}
                         alt="Social Logo"

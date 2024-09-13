@@ -18,6 +18,11 @@ const config: Config = {
         accent: "#7b00d3",
         accentDark: "#ffdb4d80",
       },
+      screens: {
+        x: "630px",
+        xss: "450px",
+        xsss: "200px",
+      },
     },
   },
   plugins: [],

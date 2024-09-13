@@ -18,8 +18,8 @@ const Page = ({
   return (
     <div className="dark:bg-black/90">
       <HeaderSection data={headerdata} />
-      <HomeHeroSection data={homeherodata} />
       <NavbarSection data={navlinkdata} />
+      <HomeHeroSection data={homeherodata} />
       <FeaturePostSection data={featurepostdata} />
       <BlogSerction data={recentpostdata} />
       <FooterSection data={footerdata} footerbottomdata={footerbottomdata} />
