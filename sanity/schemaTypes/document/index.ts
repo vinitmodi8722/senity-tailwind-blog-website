@@ -6,11 +6,9 @@ import header from "./header";
 import navlink from "./header/navlink";
 import homeHeroSection from "./homeHeroSection";
 import recentPostSection from "./recentPostSection";
-import section from "./section";
 
 export const documentsTypes = [
   author,
-  section,
   homeHeroSection,
   header,
   navlink,

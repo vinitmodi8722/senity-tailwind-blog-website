@@ -15,7 +15,6 @@ const HomeHeroSection = ({ data }: { data: HomeHeroSectionType[] }) => {
 
           <img
             alt={item.title}
-            fetchPriority="high"
             decoding="async"
             className="absolute inset-0 w-full h-full object-center object-cover -z-10"
             src={item.bgimage.asset.url}
