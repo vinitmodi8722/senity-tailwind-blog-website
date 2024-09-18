@@ -19,7 +19,7 @@ const HeaderSection = ({ data }: { data: HeaderType[] }) => {
                   </span>
                 </div>
               </div>
-              <div className="flex justify-end w-full items-center hidden x:flex">
+              <div className="flex justify-end w-full items-center x:flex hidden">
                 {item.sociallogolink.map((item, inded) => (
                   <a
                     key={inded}
@@ -31,7 +31,7 @@ const HeaderSection = ({ data }: { data: HeaderType[] }) => {
                       <img
                         src={item.sociallogo.asset.url}
                         alt="Social Logo"
-                        className="h-7 w-7"
+                        className="h-7 w-7 hover:h-9 hover:w-8"
                       />
                     </div>
                   </a>
