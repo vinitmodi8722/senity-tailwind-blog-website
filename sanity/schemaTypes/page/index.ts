@@ -35,12 +35,12 @@ export default {
       },
       group: "main",
     },
-    {
-      name: "pageBuilder",
-      type: "array",
-      of: [{ type: "reference", to: { type: "section" } }],
-      group: "main",
-    },
+    // {
+    //   name: "pageBuilder",
+    //   type: "array",
+    //   of: [{ type: "reference", to: { type: "section" } }],
+    //   group: "main",
+    // },
     // {
     //   name: "hasWithBackGround",
     //   title: "Has WithBackGround",

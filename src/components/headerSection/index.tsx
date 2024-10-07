@@ -10,11 +10,11 @@ const HeaderSection = ({ data }: { data: HeaderType[] }) => {
           {data.map((item, index) => (
             <div key={index} className="flex">
               <div className="flex justify-center items-center -ml-3 -mt-2">
-                <div className="w-16 rounded-full overflow-hidden border-[1px] border-solid border-black dark:border-white/80 mr-2 md:mr-4">
+                <div className="w-16 overflow-hidden dark:border-white/80 mr-2 md:mr-4">
                   <img src={item.logo.asset.url} alt="logo" />
                 </div>
-                <div className="font-semibold text-lg md:text-xl relative group">
-                  <span className="relative inline-block after:absolute dark:text-white/80 after:bg-blue-500 after:h-[2px] after:w-0 after:left-0 after:bottom-0 after:transition-all after:duration-2000 group-hover:after:w-full">
+                <div className="font-semibold text-lg md:text-xl relative group -ml-5">
+                  <span className="relative inline-block after:absolute dark:text-white/80 after:bg-blue-500 after:h-[2px] after:w-0 after:left-0 after:bottom-0 after:transition-all after:duration-2000 group-hover:after:w-full hover:text-red-600 dark:hover:text-yellow-400">
                     {item.logotitle}
                   </span>
                 </div>
