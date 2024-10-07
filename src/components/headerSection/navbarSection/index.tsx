@@ -16,7 +16,7 @@ const NavbarSection = ({ data }: { data: NavLinkType[] }) => {
         className="fixed top-9 right-5 z-50 x:hidden"
         onClick={toggleNavbar}
       >
-        <TfiMenuAlt className="h-[25px] w-[25px]" />
+        <TfiMenuAlt className="h-[25px] w-[25px] dark:text-white" />
       </button>
 
       <div
